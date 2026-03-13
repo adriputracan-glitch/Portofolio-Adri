@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Adri Putra Can | Web App Developer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#020617;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav h1{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+/* HERO */
+
+.hero{
+padding:120px 10%;
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+opacity:0.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 28px;
+background:#38bdf8;
+color:black;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* SECTION */
+
+section{
+padding:90px 10%;
+}
+
+.title{
+font-size:34px;
+margin-bottom:35px;
+color:#38bdf8;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.skill:hover{
+transform:translateY(-5px);
+}
+
+/* PROJECT */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.whatsapp{
+background:#22c55e;
+color:white;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:35px;
+background:#020617;
+margin-top:60px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h1>AdriDev</h1>
+
+<div>
+<a href="#about">Tentang</a>
+<a href="#skill">Skill</a>
+<a href="#project">Project</a>
+<a href="#service">Layanan</a>
+<a href="#contact">Kontak</a>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h2>Halo, Saya <span>Adri Putra Can</span></h2>
+
+<p>
+Web App Developer yang fokus membuat sistem digital untuk kampus,
+administrasi online, dashboard data, dan aplikasi berbasis web.
+</p>
+
+<a class="btn" href="#contact">Hubungi Saya</a>
+
+</div>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="title">Tentang Saya</h2>
+
+<p>
+Saya adalah developer yang membantu kampus, sekolah, dan bisnis
+dalam membuat sistem digital untuk meningkatkan efisiensi
+administrasi dan pengelolaan data.
+</p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skill">
+
+<h2 class="title">Keahlian</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Google Apps Script</div>
+<div class="skill">Web Application</div>
+<div class="skill">Dashboard Data</div>
+
+</div>
+
+</section>
+
+<!-- PROJECT -->
+
+<section id="project">
+
+<h2 class="title">Project Saya</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Administrasi Kampus</h3>
+<p>
+Sistem administrasi digital untuk layanan kampus seperti pengajuan surat dan manajemen data mahasiswa.
+</p>
+</div>
+
+<div class="card">
+<h3>Tracking Surat</h3>
+<p>
+Aplikasi untuk melacak status surat secara online sehingga pengguna dapat mengetahui proses surat.
+</p>
+</div>
+
+<div class="card">
+<h3>Cek Judul Skripsi</h3>
+<p>
+Sistem untuk mengecek apakah judul skripsi sudah pernah digunakan sebelumnya.
+</p>
+</div>
+
+<div class="card">
+<h3>Antrian Online</h3>
+<p>
+Sistem antrian digital untuk mempermudah pelayanan administrasi kampus.
+</p>
+</div>
+
+<div class="card">
+<h3>Money Manager</h3>
+<p>
+Aplikasi manajemen keuangan untuk mencatat pemasukan dan pengeluaran dengan dashboard grafik.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="service">
+
+<h2 class="title">Layanan</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Pembuatan Web App</h3>
+<p>
+Pembuatan sistem web seperti sistem administrasi, dashboard data, dan aplikasi bisnis.
+</p>
+</div>
+
+<div class="card">
+<h3>Sistem Administrasi Kampus</h3>
+<p>
+Digitalisasi layanan kampus seperti pengajuan surat dan sistem akademik.
+</p>
+</div>
+
+<div class="card">
+<h3>Convert Web ke APK</h3>
+<p>
+Mengubah website menjadi aplikasi Android siap install.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2 class="title">Kontak</h2>
+
+<p>Email : adriputra3@gmail.com</p>
+
+<p>WhatsApp : 085211620658</p>
+
+<a class="whatsapp" href="https://wa.me/6285211620658">
+Chat WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Adri Putra Can | Web App Developer</p>
+
+</footer>
+
+</body>
+</html>
